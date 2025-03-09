@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f085abb7856218a40821b51c7d40cf10, type: 3}
+  m_Name: 2_LevelConfig
+  m_EditorClassIdentifier: 
+  <Index>k__BackingField: 2
+  <BallCount>k__BackingField: 46
+  <PreviewLevelSprite>k__BackingField: {fileID: 21300000, guid: 47c6a52983cc4e046a350dbfbc8a962c, type: 3}
+  <LevelNumberSprite>k__BackingField: {fileID: 21300000, guid: 942a163b92ec39c458bc39e6de0c3b88, type: 3}
+  <LevelItem>k__BackingField: {fileID: 2258466839834523510, guid: 19fc2effc35528b46b4247bd971e70e8, type: 3}
+  <PatternSpawn>k__BackingField: {fileID: 11400000, guid: 8158ae6f0274a4242b60ea57cabdc252, type: 2}

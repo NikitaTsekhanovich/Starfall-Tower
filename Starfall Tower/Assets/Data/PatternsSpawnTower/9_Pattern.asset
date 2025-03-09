@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27494a1b5c0f92941b5fe1a4ff35342c, type: 3}
+  m_Name: 9_Pattern
+  m_EditorClassIdentifier: 
+  <TypeBlock>k__BackingField: 0
+  <BlocksHeight>k__BackingField: 20
+  <BaseBlocksHeight>k__BackingField: 4
+  <BasePositionBlocks>k__BackingField:
+  - <Row>k__BackingField: 0
+    <BlockPosition>k__BackingField: {x: 0, y: 2.5, z: 0}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 25, y: 5, z: 25}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 1
+    <BlockPosition>k__BackingField: {x: -10, y: 7.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 1
+    <BlockPosition>k__BackingField: {x: 10, y: 7.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 1
+    <BlockPosition>k__BackingField: {x: 10, y: 7.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 1
+    <BlockPosition>k__BackingField: {x: -10, y: 7.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 1
+    <BlockPosition>k__BackingField: {x: 0, y: 7.5, z: 0}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 2
+    <BlockPosition>k__BackingField: {x: -10, y: 12.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 2
+    <BlockPosition>k__BackingField: {x: 10, y: 12.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 2
+    <BlockPosition>k__BackingField: {x: 10, y: 12.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 2
+    <BlockPosition>k__BackingField: {x: -10, y: 12.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 2
+    <BlockPosition>k__BackingField: {x: 0, y: 12.5, z: 0}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 3
+    <BlockPosition>k__BackingField: {x: -10, y: 17.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 3
+    <BlockPosition>k__BackingField: {x: 10, y: 17.5, z: 10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 3
+    <BlockPosition>k__BackingField: {x: 10, y: 17.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 3
+    <BlockPosition>k__BackingField: {x: -10, y: 17.5, z: -10}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}
+  - <Row>k__BackingField: 3
+    <BlockPosition>k__BackingField: {x: 0, y: 17.5, z: 0}
+    <BlockRotation>k__BackingField: {x: 0, y: 0, z: 0}
+    <BlockScale>k__BackingField: {x: 5, y: 5, z: 5}
+    <MeshSize>k__BackingField: {x: 1, y: 1, z: 1}

@@ -1,0 +1,236 @@
+{
+	"spmLibs": [
+		{
+			"gitUrl": "https://github.com/facebook/facebook-ios-sdk.git",
+			"minVersion": {
+				"major": "16"
+			},
+			"maxVersion": {
+				"major": "16"
+			},
+			"packageRequirement": {
+				"kind": "exactVersion",
+				"version": "16.2.1"
+			},
+			"podFrameworks": [
+				{
+					"podName": "FBSDKCoreKit_Basics",
+					"spmNames": [ "FacebookBasics" ]
+				},
+				{
+					"podName": "FBSDKCoreKit",
+					"spmNames": [ "FacebookCore" ]
+				},
+				{
+					"podName": "FBSDKGamingServicesKit",
+					"spmNames": [ "FacebookGamingServices" ]
+				},
+				{
+					"podName": "FBSDKLoginKit",
+					"spmNames": [ "FacebookLogin" ]
+				},
+				{
+					"podName": "FBSDKShareKit",
+					"spmNames": [ "FacebookShare" ]
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/facebook/facebook-ios-sdk.git",
+			"podFrameworks": [
+				{
+					"podName": "FBSDKCoreKit_Basics",
+					"spmNames": [ "FacebookBasics" ]
+				},
+				{
+					"podName": "FBSDKCoreKit",
+					"spmNames": [ "FacebookCore" ]
+				},
+				{
+					"podName": "FBSDKGamingServicesKit",
+					"spmNames": [ "FacebookGamingServices" ]
+				},
+				{
+					"podName": "FBSDKLoginKit",
+					"spmNames": [ "FacebookLogin" ]
+				},
+				{
+					"podName": "FBSDKShareKit",
+					"spmNames": [ "FacebookShare" ]
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/OneSignal/OneSignal-XCFramework",
+			"minVersion": {
+				"major": "5"
+			},
+			"podFrameworks": [
+				{
+					"podName": "OneSignalXCFramework",
+					"spmNames": [ "OneSignalFramework", "OneSignalInAppMessages", "OneSignalLocation" ],
+					"target": "UnityFramework"
+				},
+				{
+					"podName": "OneSignalXCFramework",
+					"spmNames": [ "OneSignalFramework", "OneSignalInAppMessages", "OneSignalLocation" ],
+					"target": "Unity-iPhone"
+				},
+				{
+					"podName": "OneSignalXCFramework",
+					"spmNames": [ "OneSignalExtension" ],
+					"target": "OneSignalNotificationServiceExtension"
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/OneSignal/OneSignal-XCFramework",
+			"minVersion": {
+				"major": "3"
+			},
+			"maxVersion": {
+				"major": "4"
+			},
+			"podFrameworks": [
+				{
+					"podName": "OneSignalXCFramework",
+					"spmNames": [ "OneSignal" ]
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/firebase/firebase-ios-sdk.git",
+			"podFrameworks": [
+				{
+					"podName": "Firebase/Analytics",
+					"spmNames": [ "FirebaseAnalytics" ]
+				},
+				{
+					"podName": "Firebase/AppCheck",
+					"spmNames": [ "FirebaseAppCheck" ]
+				},
+				{
+					"podName": "Firebase/AppDistribution",
+					"spmNames": [ "FirebaseAppDistribution" ]
+				},
+				{
+					"podName": "Firebase/Auth",
+					"spmNames": [ "FirebaseAuth" ]
+				},
+				{
+					"podName": "Firebase/Firestore",
+					"spmNames": [ "FirebaseFirestore" ]
+				},
+				{
+					"podName": "Firebase/Functions",
+					"spmNames": [ "FirebaseFunctions" ]
+				},
+				{
+					"podName": "Firebase/Messaging",
+					"spmNames": [ "FirebaseMessaging" ]
+				},
+				{
+					"podName": "Firebase/Storage",
+					"spmNames": [ "FirebaseStorage" ]
+				},
+				{
+					"podName": "Firebase/Crashlytics",
+					"spmNames": [ "FirebaseCrashlytics" ]
+				},
+				{
+					"podName": "Firebase/DynamicLinks",
+					"spmNames": [ "FirebaseDynamicLinks" ]
+				},
+				{
+					"podName": "Firebase/InAppMessaging",
+					"spmNames": [ "FirebaseInAppMessaging" ]
+				},
+				{
+					"podName": "Firebase/Installations",
+					"spmNames": [ "FirebaseInstallations" ]
+				},
+				{
+					"podName": "Firebase/MLModelDownloader",
+					"spmNames": [ "FirebaseMLModelDownloader" ]
+				},
+				{
+					"podName": "Firebase/Performance",
+					"spmNames": [ "FirebasePerformance" ]
+				},
+				{
+					"podName": "Firebase/Database",
+					"spmNames": [ "FirebaseDatabase" ]
+				},
+				{
+					"podName": "Firebase/RemoteConfig",
+					"spmNames": [ "FirebaseRemoteConfig" ]
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/affise/sdk-ios",
+			"maxVersion": {
+				"major": "1",
+				"minor": "6",
+				"patch": "21"
+			},
+			"packageRequirement": {
+				"kind": "exactVersion",
+				"version": "1.6.21"
+			},
+			"podFrameworks": [
+				{
+					"podName": "AffiseInternal",
+					"spmNames": [ "AffiseInternal", "AffiseAttributionLib", "AffiseSKAdNetwork" ]
+				},
+				{
+					"podName": "AffiseAttributionLib",
+					"spmNames": [ "AffiseAttributionLib" ]
+				},
+				{
+					"podName": "AffiseSKAdNetwork",
+					"spmNames": [ "AffiseSKAdNetwork" ]
+				},
+				{
+					"podName": "AffiseModule/Advertising",
+					"spmNames": [ "AffiseModuleAdvertising" ]
+				},
+				{
+					"podName": "AffiseModule/Status",
+					"spmNames": [ "AffiseModuleStatus" ]
+				}
+			]
+		},
+		{
+			"gitUrl": "https://github.com/affise/sdk-ios",
+			"minVersion": {
+				"major": "1",
+				"minor": "6",
+				"patch": "21"
+			},
+			"podFrameworks": [
+				{
+					"podName": "AffiseInternal",
+					"spmNames": [ "AffiseInternal", "AffiseAttributionLib", "AffiseSKAdNetwork" ]
+				},
+				{
+					"podName": "AffiseAttributionLib",
+					"spmNames": [ "AffiseAttributionLib" ]
+				},
+				{
+					"podName": "AffiseSKAdNetwork",
+					"spmNames": [ "AffiseSKAdNetwork" ]
+				},
+				{
+					"podName": "AffiseModule/Advertising",
+					"spmNames": [ "AffiseModuleAdvertising" ]
+				},
+				{
+					"podName": "AffiseModule/Status",
+					"spmNames": [ "AffiseModuleStatus" ]
+				}
+			]
+		}
+	],
+	"spm": []
+}
